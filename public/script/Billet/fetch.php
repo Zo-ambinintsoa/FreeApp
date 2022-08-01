@@ -40,10 +40,10 @@ foreach($result as $row)
     $sub_array['username'] = $row["username"];
     $sub_array['address'] = $row["address"];    
     $sub_array['telephone'] = $row["telephone"];      
-    $sub_array['Action'] = '<button type="button" name="update" id="'.$row["id"].'" class="btn btn-info btn-sm update"><i class="fa fa-edit"></i> E</button>
-        <button type="button" name="listB" id="'.$row["id"].'" class="btn btn-warning btn-sm listB"><i class="fa fa-list"></i> L</button>
-        <a name="detail" id="'.$row["id"].'" href="billetdetail.php?id='.$row["id"].'" class="btn btn-warning btn-sm detail"><i class="fa fa-eye"></i> L</a>
-        <button type="button" name="delete" id="'.$row["id"].'" class="btn btn-danger btn-sm delete"><i class="fa fa-trash"></i> D</button>';
+    $sub_array['Action'] = '<button type="button" name="update" id="'.$row["id"].'" class="btn btn-info btn-sm update rounded-circle"><i class="fa fa-edit"></i> E</button>
+        <button type="button" name="listB" id="'.$row["id"].'" class="btn btn-warning btn-sm listB rounded-circle"><i class="fa fa-list"></i> L</button>
+        <a name="detail" id="'.$row["id"].'" href="billetdetail.php?id='.$row["id"].'" class="btn btn-warning btn-sm detail rounded-circle"><i class="fa fa-eye"></i> L</a>
+        <button type="button" name="delete" id="'.$row["id"].'" class="btn btn-danger btn-sm delete rounded-circle"><i class="fa fa-trash"></i> D</button>';
     $data[] = $sub_array;
     }
 

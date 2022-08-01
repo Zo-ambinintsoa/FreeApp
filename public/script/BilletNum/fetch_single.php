@@ -27,6 +27,10 @@ if(isset($_POST["id"]))
     $output["No5"] = $row["No5"];
     $output["No6"] = $row["No6"];
     $output["No7"] = $row["No7"];
+    $output["No8"] = $row["No8"];
+    $output["No9"] = $row["No9"];
+    $output["No10"] = $row["No10"];
+    $output["prix"] = $row["prix"];
     }
     header('Content-type: application/json');
     echo json_encode($output);

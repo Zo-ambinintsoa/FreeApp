@@ -39,9 +39,9 @@ foreach($result as $row)
     $sub_array['dateTirage'] = $row["dateTirage"];
     $sub_array['lot'] = $row["lot"];
     
-    $sub_array['Action'] = '<button type="submit" name="update" id="'.$row["id"].'" class="btn btn-info btn-sm update"><div class="fa fa-edit"></div> E</button>
-    <a name="detail" id="'.$row["id"].'" href="tomboladetail.php?id='.$row["id"].'" class="btn btn-warning btn-sm detail"><i class="fa fa-eye"></i> L</a>
-            <button type="button" name="delete" id="'.$row["id"].'" class="btn btn-danger btn-sm delete"><i class="fa fa-trash"></i> D</button>';
+    $sub_array['Action'] = '<button type="submit" name="update" id="'.$row["id"].'" class="btn btn-info btn-sm update rounded-circle"><div class="fa fa-edit"></div> E</button>
+    <a name="detail" id="'.$row["id"].'" href="tomboladetail.php?id='.$row["id"].'" class="btn btn-warning btn-sm detail rounded-circle"><i class="fa fa-eye"></i> L</a>
+            <button type="button" name="delete" id="'.$row["id"].'" class="btn btn-danger btn-sm delete rounded-circle"><i class="fa fa-trash"></i> D</button>';
     $data[] = $sub_array;
     }
 

@@ -123,8 +123,8 @@ require './script/Tombola/getforSelect.php'
   </div>
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal fade bd-example-modal-lg" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title-billet" id="exampleModalLongTitle"><div id="Mhead"></div></h5>
@@ -164,18 +164,25 @@ require './script/Tombola/getforSelect.php'
             <label for="inputLot">Telephone de l'acheteur</label>
             <input type="text" class="form-control" id="telephone" name="telephone" placeholder="Telephone" required>
           </div>
+          <div class="form-group">
+            <label for="inputLot">Prix du Numero</label>
+            <input type="text" class="form-control" id="telephone" name="telephone" placeholder="Telephone" required>
+          </div>
           <div class="formbilnum">
-          <label for="inputLot">Numero</label>
+              <label for="inputLot">Numero</label>
             <div class="form-inline  ustify-content-between align-items-center">
-            <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'')" maxlength='1' step="1" pattern="^[0-9]{1}$" name="No1" id="No1" required class="one col-1 form-control m-1" max="9" min="0">
-            <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'')" maxlength='1' step="1" pattern="^[0-9]{1}$" name="No2" id="No2" required class="two col-1 form-control m-1" max="9" min="0">
-            <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'')" maxlength='1' step="1" pattern="^[0-9]{1}$" name="No3" id="No3" required class="three col-1 form-control m-1" max="9" min="0">
-            <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'')" maxlength='1' step="1" pattern="^[0-9]{1}$" name="No4" id="No4" required class="four col-1 form-control m-1" max="9" min="0">
-            <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'')" maxlength='1' step="1" pattern="^[0-9]{1}$" name="No5" id="No5" required class="five col-1 form-control m-1" max="9" min="0">
-            <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'')" maxlength='1' step="1" pattern="^[0-9]{1}$" name="No6" id="No6" required class="six col-1 form-control m-1" max="9" min="0">
-            <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'')" maxlength='1' step="1" pattern="^[0-9]{1}$" name="No7" id="No7" required class="seven col-1 form-control m-1" max="9" min="0">
-        </div> 
-        </div> 
+              <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'')" maxlength='1' step="1" pattern="^[0-9]{1}$" name="No1" id="No1" required class="one col-1 form-control m-1" max="9" min="0">
+              <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'')" maxlength='1' step="1" pattern="^[0-9]{1}$" name="No2" id="No2" required class="two col-1 form-control m-1" max="9" min="0">
+              <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'')" maxlength='1' step="1" pattern="^[0-9]{1}$" name="No3" id="No3" required class="three col-1 form-control m-1" max="9" min="0">
+              <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'')" maxlength='1' step="1" pattern="^[0-9]{1}$" name="No4" id="No4" required class="four col-1 form-control m-1" max="9" min="0">
+              <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'')" maxlength='1' step="1" pattern="^[0-9]{1}$" name="No5" id="No5" required class="five col-1 form-control m-1" max="9" min="0">
+              <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'')" maxlength='1' step="1" pattern="^[0-9]{1}$" name="No6" id="No6" required class="six col-1 form-control m-1" max="9" min="0">
+              <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'')" maxlength='1' step="1" pattern="^[0-9]{1}$" name="No7" id="No7" required class="seven col-1 form-control m-1" max="9" min="0">
+              <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'')" maxlength='1' step="1" pattern="^[0-9]{1}$" name="No8" id="No8" required class="eight col-1 form-control m-1" max="9" min="0">
+              <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'')" maxlength='1' step="1" pattern="^[0-9]{1}$" name="No9" id="No9" required class="nine col-1 form-control m-1" max="9" min="0">
+              <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'')" maxlength='1' step="1" pattern="^[0-9]{1}$" name="No10" id="No10" required class="ten col-1 form-control m-1" max="9" min="0">
+            </div> 
+          </div> 
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
@@ -209,6 +216,10 @@ require './script/Tombola/getforSelect.php'
                     <th>No5</th>
                     <th>No6</th>
                     <th>No7</th>
+                    <th>No8</th>
+                    <th>No9</th>
+                    <th>No10</th>
+                    <th>Prix</th>
                     <th>Action</th>
                 </tr>
             </thead>
@@ -225,8 +236,8 @@ require './script/Tombola/getforSelect.php'
   </div>
 </div>
     <!-- Modal -->
-<div class="modal fade" id="examplenum" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
+<div class="modal fade bd-example-modal-lg" id="examplenum" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLongTitle"><div id="Mhead"></div></h5>
@@ -238,7 +249,7 @@ require './script/Tombola/getforSelect.php'
       <div class="modal-body">
         <input type="hidden" name="operation" id="operationB" value="Edit" />
         <input type="hidden" name="idTombola" id="idTombola2" />
-        <input type="hidden" name="numId" id="id" />
+        <input type="hidden" name="numId" id="idn" />
             <ul class="list-group">
             <li class="list-group-item d-flex justify-content-between align-items-center">
                 Billet de:
@@ -253,16 +264,18 @@ require './script/Tombola/getforSelect.php'
                 <span class="Btel"></span>
             </li>
             </ul>
-            
             <hr>
         <div class="form-inline  ustify-content-between align-items-center">
-            <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'')" maxlength='1' step="1" pattern="^[0-9]{1}$" name="No1" id="No1" required class="one col-1 form-control m-1" max="9" min="0">
-            <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'')" maxlength='1' step="1" pattern="^[0-9]{1}$" name="No2" id="No2" required class="two col-1 form-control m-1" max="9" min="0">
-            <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'')" maxlength='1' step="1" pattern="^[0-9]{1}$" name="No3" id="No3" required class="three col-1 form-control m-1" max="9" min="0">
-            <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'')" maxlength='1' step="1" pattern="^[0-9]{1}$" name="No4" id="No4" required class="four col-1 form-control m-1" max="9" min="0">
-            <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'')" maxlength='1' step="1" pattern="^[0-9]{1}$" name="No5" id="No5" required class="five col-1 form-control m-1" max="9" min="0">
-            <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'')" maxlength='1' step="1" pattern="^[0-9]{1}$" name="No6" id="No6" required class="six col-1 form-control m-1" max="9" min="0">
-            <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'')" maxlength='1' step="1" pattern="^[0-9]{1}$" name="No7" id="No7" required class="seven col-1 form-control m-1" max="9" min="0">
+            <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'')" maxlength='1' step="1" pattern="^[0-9]{1}$" name="No1" id="No1n" required class="one col-1 form-control m-1" max="9" min="0">
+            <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'')" maxlength='1' step="1" pattern="^[0-9]{1}$" name="No2" id="No2n" required class="two col-1 form-control m-1" max="9" min="0">
+            <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'')" maxlength='1' step="1" pattern="^[0-9]{1}$" name="No3" id="No3n" required class="three col-1 form-control m-1" max="9" min="0">
+            <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'')" maxlength='1' step="1" pattern="^[0-9]{1}$" name="No4" id="No4n" required class="four col-1 form-control m-1" max="9" min="0">
+            <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'')" maxlength='1' step="1" pattern="^[0-9]{1}$" name="No5" id="No5n" required class="five col-1 form-control m-1" max="9" min="0">
+            <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'')" maxlength='1' step="1" pattern="^[0-9]{1}$" name="No6" id="No6n" required class="six col-1 form-control m-1" max="9" min="0">
+            <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'')" maxlength='1' step="1" pattern="^[0-9]{1}$" name="No7" id="No7n" required class="seven col-1 form-control m-1" max="9" min="0">
+            <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'')" maxlength='1' step="1" pattern="^[0-9]{1}$" name="No8" id="No8n" required class="eight col-1 form-control m-1" max="9" min="0">
+            <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'')" maxlength='1' step="1" pattern="^[0-9]{1}$" name="No9" id="No9n" required class="nine col-1 form-control m-1" max="9" min="0">
+            <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'')" maxlength='1' step="1" pattern="^[0-9]{1}$" name="No10" id="No10n" required class="ten col-1 form-control m-1" max="9" min="0">
         </div>            
       </div>
       <div class="modal-footer">
@@ -375,6 +388,10 @@ $(document).on('submit', '#formt', function(event){
                     <td>'+value['No5']+'</td>\
                     <td>'+value['No6']+'</td>\
                     <td>'+value['No7']+'</td>\
+                    <td>'+value['No8']+'</td>\
+                    <td>'+value['No9']+'</td>\
+                    <td>'+value['No10']+'</td>\
+                    <td>'+value['prix']+'</td>\
                     <td>'+value['Action']+'</td>\
                 </tr>');
         });
@@ -422,14 +439,18 @@ $(document).on('submit', '#formt', function(event){
         $('#idTombola2').val(response.idTombola);
         $('.DTir').text(response.address);
         $('.Btel').text(response.telephone);
-        $('#id').val(response.id);
-        $('#No1').val(response.No1);
-        $('#No2').val(response.No2);
-        $('#No3').val(response.No3);
-        $('#No4').val(response.No4);
-        $('#No5').val(response.No5);
-        $('#No6').val(response.No6);
-        $('#No7').val(response.No7);
+        $('#idn').val(response.id);
+        $('#No1n').val(response.No1);
+        $('#No2n').val(response.No2);
+        $('#No3n').val(response.No3);
+        $('#No4n').val(response.No4);
+        $('#No5n').val(response.No5);
+        $('#No6n').val(response.No6);
+        $('#No7n').val(response.No7);
+        $('#No8n').val(response.No8);
+        $('#No9n').val(response.No9);
+        $('#No10n').val(response.No10);
+        $('#prix').val(response.prix);
         $('#examplenum').modal('show');
     }
         });

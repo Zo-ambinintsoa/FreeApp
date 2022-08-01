@@ -16,10 +16,14 @@
                 'No5' => trim($_POST['No5']),
                 'No6' => trim($_POST['No6']),
                 'No7' => trim($_POST['No7']),
+                'No8' => trim($_POST['No8']),
+                'No9' => trim($_POST['No9']),
+                'No10' => trim($_POST['No10']),
                 'idTombola' => trim($_POST['idTombola']),
             ];
                 $data['checking'] = implode(' ' , $data);
                 $data['idBillet'] = trim($_POST['idBillet']);
+                $data['prix'] = trim($_POST['prix']);
                 $result = $crud->Insert('billet')->Data($data);
                 if ($result->Execute()) {
                     echo('Billet Creer');
@@ -36,11 +40,15 @@
                 'No5' => trim($_POST['No5']),
                 'No6' => trim($_POST['No6']),
                 'No7' => trim($_POST['No7']),
+                'No8' => trim($_POST['No8']),
+                'No9' => trim($_POST['No9']),
+                'No10' => trim($_POST['No10']),
                 'idTombola' => intval($_POST['idTombola']),
                 
             ];  
                 $data['checking'] = implode(' ' , $data);
                 // $data['idBillet'] = trim($_POST['idBillet']);
+                $data['prix'] = trim($_POST['prix']);
                 $result = $crud->Update('billetnum')->Set($data)->Where($id);
                     if ($result->Execute()) {
                         echo('Billet mis a jour');

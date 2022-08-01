@@ -41,15 +41,15 @@ foreach($result as $row)
         $sub_array['isAdmin'] = 'Employer' ;
     }
     
-    $sub_array['Action'] = '<button type="button" name="update" id="'.$row["id"].'" class="btn btn-info btn-sm update"><i class="fa fa-edit"></i> E</button>
-                            <button type="button" name="delete" id="'.$row["id"].'" class="btn btn-danger btn-sm delete"><i class="fa fa-trash"></i> D</button>
+    $sub_array['Action'] = '<button type="button" name="update" id="'.$row["id"].'" class="btn btn-info btn-sm update rounded-circle"><i class="fa fa-edit"></i> E</button>
+                            <button type="button" name="delete" id="'.$row["id"].'" class="btn btn-danger btn-sm delete rounded-circle"><i class="fa fa-trash"></i> D</button>
                             <a href="profile.php?id='.$row["id"].'" class="btn btn-success btn-sm rounded-circle"><i class="fa fa-list"></i> L</a>
-                            <a href="affiliate.php?id='.$row["id"].'" class="btn btn-warning btn-sm"><i class="fa fa-list"></i> A</a>
+                            <a href="affiliate.php?id='.$row["id"].'" class="btn btn-warning btn-sm rounded-circle"><i class="fa fa-list"></i> A</a>
                             ';
         if ($row["isConfirmed"] == 0) {
-          $sub_array['Action'] .= '<button type="button" name="confirm" id="'.$row["id"].'" class="btn btn-light btn-sm confirm"><i class="fa fa-check"></i> C</button>';  
+          $sub_array['Action'] .= '<button type="button" name="confirm" id="'.$row["id"].'" class="btn btn-danger btn-sm confirm rounded-circle"><i class="fa fa-check"></i> C</button>';  
         } else {
-          $sub_array['Action'] .= '<button type="button" name="unconfirm" id="'.$row["id"].'" class="btn btn-danger btn-sm confirm"><i class="fa fa-times"></i> C</button>';    
+          $sub_array['Action'] .= '<button type="button" name="unconfirm" id="'.$row["id"].'" class="btn btn-light btn-sm confirm rounded-circle"><i class="fa fa-times"></i> C</button>';    
         }
     $data[] = $sub_array;
     }
