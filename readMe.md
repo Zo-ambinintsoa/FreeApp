@@ -1,3 +1,12 @@
+<p align="center">
+    <a href="https://www.linkedin.com/in/zo-ambinintsoa">
+        <img src="https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin" alt="LinkedIn">
+    </a>
+    <a href="mailto:ambinintsoa.business@gmail.com">
+        <img src="https://img.shields.io/badge/Email-blue?style=flat-square&logo=gmail&logoColor=white" alt="e-mail">
+    </a>
+</p>
+
 # PHP TOMBOLA Application
 
 This PHP application demonstrates my OOP (Object-Oriented Programming) skills by implementing a CRUD (Create, Read, Update, Delete) functionality using a custom CRUD class. The application uses a database to store and retrieve data, and it includes features such as DataTable integration for listing data, AJAX requests for seamless data retrieval, and various functionalities for managing users, raffles, and raffle tickets.
@@ -88,4 +97,14 @@ This application was developed to showcase my OOP skills and to provide a practi
 ## Contact
 
 For any inquiries or feedback, please contact me at [ambinintsoa.business@gmail.com](mailto:ambinintsoa.business@gmail.com).
+
+
+<p align="center">
+    <a href="https://www.linkedin.com/in/zo-ambinintsoa">
+        <img src="https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin" alt="LinkedIn">
+    </a>
+    <a href="mailto:ambinintsoa.business@gmail.com">
+        <img src="https://img.shields.io/badge/Email-blue?style=flat-square&logo=gmail&logoColor=white" alt="e-mail">
+    </a>
+</p>
 
