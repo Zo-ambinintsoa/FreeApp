@@ -1,6 +1,5 @@
 <?php include('./layout/header.php')?>
 
-<?php include('./layout/navbar.php')?>
 
 <?php
   // Include db config
@@ -65,7 +64,7 @@
     if(empty($name_err) && empty($email_err) && empty($password_err) && empty($confirm_password_err)){
       // Hash password
       $password = password_hash($password, PASSWORD_DEFAULT);
-      $data = ['email' => $email , 'name' => $name , 'password' => $password , 'isAdmin' => $utype, 'isConfirmed' => 1 , 'addedBy' => $_SESSION['userId']];
+      $data = ['email' => $email , 'name' => $name , 'password' => $password , 'isAdmin' => $utype, 'isConfirmed' => 1 , 'addedBy' => 0];
       // Prepare insert query
         $stmt = $db->Insert('users')->Data($data);
         $result = $stmt->Execute();
