@@ -7,35 +7,35 @@ This PHP application demonstrates my OOP (Object-Oriented Programming) skills by
 - `Authentification`
 
 <p align="center">
-<img src="./screenshoot/lotoLogin.png" alt="Alt Text" width="400" height="200" align="center"/>
+<img src="./screenshoot/lotoLogin.PNG" alt="Alt Text" width="400" height="200" align="center"/>
 </p>
 
 - `Home`
 
 <p align="center">
-<img src="./screenshoot/lotoDashboard.png" alt="Alt Text" width="400" height="200" align="center"/>
+<img src="./screenshoot/lotoDashboard.PNG" alt="Alt Text" width="400" height="200" align="center"/>
 </p>
 
 - `Listing`
 
 <p align="center">
-<img src="./screenshoot/lotoListeTombola.png" alt="Alt Text" width="400" height="200" align="center"/>
-<img src="./screenshoot/lotoListeBillet.png" alt="Alt Text" width="400" height="200" align="center"/>
-<img src="./screenshoot/lotoBilletNum.png" alt="Alt Text" width="400" height="200" align="center"/>
+<img src="./screenshoot/lotoListeTombola.PNG" alt="Alt Text" width="400" height="200" align="center"/>
+<img src="./screenshoot/lotoListeBillet.PNG" alt="Alt Text" width="400" height="200" align="center"/>
+<img src="./screenshoot/lotoBilletNum.PNG" alt="Alt Text" width="400" height="200" align="center"/>
 </p>
 
 - `Form`
 
 <p align="center">
 <img src="./screenshoot/lotoAddTombola.PNG" alt="Alt Text" width="400" height="200" align="center"/>
-<img src="./screenshoot/lotoAddBillet.png" alt="Alt Text" width="400" height="200" align="center"/>
+<img src="./screenshoot/lotoAddBillet.PNG" alt="Alt Text" width="400" height="200" align="center"/>
 </p>
 
 - `Details`
 
 <p align="center">
 <img src="./screenshoot/lotoDetailTombola.PNG" alt="Alt Text" width="400" height="200" align="center"/>
-<img src="./screenshoot/lotoDetailBillet.png" alt="Alt Text" width="400" height="200" align="center"/>
+<img src="./screenshoot/lotoDetailBillet.PNG" alt="Alt Text" width="400" height="200" align="center"/>
 </p>
 
 ## Features
